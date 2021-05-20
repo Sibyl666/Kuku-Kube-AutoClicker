@@ -1,0 +1,12 @@
+{
+    "name": "KukuKube",
+    "description": "Test",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://kuku-kube.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
